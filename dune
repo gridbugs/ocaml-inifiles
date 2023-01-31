@@ -1,0 +1,5 @@
+(library
+ (public_name inifiles)
+ (libraries pcre))
+(ocamlyacc parseini)
+(ocamllex inilexer)
